@@ -39,7 +39,7 @@ Remoção de dados Usuários:
 
 o usuário pode solicitar a remoção de seus dados a qualquer momento utilizando o comando:
 
-`J.dsexe`
+`J.excluir_dados`
 
 Após a solicitação, os dados serão removidos do banco de dados do bot.
 
