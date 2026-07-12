@@ -1,28 +1,28 @@
-Termos de Uso — Jazzghost
+Termos de Uso — Negi
 
 1. Aceitação dos termos
-Ao utilizar o bot Jazzghost, você concorda com estes Termos de Uso.
+Ao utilizar a bot Negi, você concorda com estes Termos de Uso.
 
 2. Uso do bot
-O Jazzghost é fornecido com o objetivo de entretenimento e utilidade dentro do Discord, incluindo sistemas como música, economia, ranking e comandos interativos.
+A Negi é fornecida com o objetivo de entretenimento e utilidade dentro do Discord, incluindo sistemas como comandos de utilidades, economia e comandos interativos.
 
 3. Responsabilidades do usuário
-Ao utilizar o bot, você concorda em:
+Ao utilizar a bot, você concorda em:
 Não abusar de bugs ou falhas do sistema
-Não utilizar o bot para fins maliciosos
-Não sobrecarregar ou tentar derrubar o bot
+Não utilizar a bot para fins maliciosos
+Não sobrecarregar ou tentar derrubar a bot
 
 4. Disponibilidade
-O bot pode sofrer instabilidades, interrupções ou manutenção a qualquer momento, sem aviso prévio.
+a bot pode sofrer instabilidades, interrupções ou manutenção a qualquer momento, sem aviso prévio.
 
 5. Alterações
 Os termos podem ser atualizados a qualquer momento sem aviso prévio.
 
 6. Uso indevido
-Usuários que abusarem do sistema podem ser bloqueados do uso do bot.
+Usuários que abusarem do sistema podem ser bloqueados do uso da bot.
 
 7. Limitação de responsabilidade
-O desenvolvedor do bot não se responsabiliza por quaisquer danos causados pelo uso do bot.
+O desenvolvedor da bot não se responsabiliza por quaisquer danos causados pelo uso da bot.
 
 8. Contato
-Para dúvidas ou suporte, utilize os canais oficiais do bot.
+Para dúvidas ou suporte, utilize os canais oficiais da bot.
