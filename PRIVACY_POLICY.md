@@ -1,13 +1,13 @@
-Política de Privacidade — Jazzghost
+Política de Privacidade — Negi
 
-ATENÇÃO: Ao utilizar o bot Jazzghost, você concorda com 
+ATENÇÃO: Ao utilizar o bot Negi, você concorda com 
 esta política de privacidade.
 
 **Sobre o bot**
 
-O Jazzghost é um bot feito com intuito de comandos para diversão e utilidades pro discord.
+A Negi é um bot feito com intuito de comandos para diversão e utilidades pro discord.
 
-Dados coletados O bot pode coletar e armazenar as seguintes informações:
+Dados coletados a bot pode coletar e armazenar as seguintes informações:
 
 - ID do usuário
 - ID do servidor
@@ -32,14 +32,11 @@ Intents utilizadas O bot utiliza as seguintes intents do Discord:
 
 - MEMBERS → para sistema de entrada/saída e contagem de membros
 
-- PRESENCE → para funcionalidades internas do bot
-
-
 Remoção de dados Usuários: 
 
 o usuário pode solicitar a remoção de seus dados a qualquer momento utilizando o comando:
 
-`J.excluir_dados`
+`N.excluir_dados`
 
 Após a solicitação, os dados serão removidos do banco de dados do bot.
 
