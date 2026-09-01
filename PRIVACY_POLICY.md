@@ -32,15 +32,6 @@ Intents utilizadas O bot utiliza as seguintes intents do Discord:
 
 - MEMBERS → para sistema de entrada/saída e contagem de membros
 
-Remoção de dados Usuários: 
-
-o usuário pode solicitar a remoção de seus dados a qualquer momento utilizando o comando:
-
-`N.excluir_dados`
-
-Após a solicitação, os dados serão removidos do banco de dados do bot.
-
-
 Armazenamento 
 
 Os dados são armazenados localmente em banco de dados SQLite e utilizados apenas para o funcionamento do bot.
