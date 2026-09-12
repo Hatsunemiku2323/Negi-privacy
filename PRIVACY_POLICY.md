@@ -1,103 +1,215 @@
 Política de Privacidade — Negi
 
-Última atualização: 09 de setembro de 2026
+Última atualização: 12 de setembro de 2026
 
 Ao utilizar o bot Negi dentro do Discord, você declara estar ciente desta Política de Privacidade.
+
+Esta política explica quais informações a Negi pode acessar, quais informações são processadas, quais informações são armazenadas e como essas informações são utilizadas.
 
 1. Sobre a Negi
 
 A Negi é um bot desenvolvido para oferecer comandos de entretenimento, diversão e utilidades para servidores do Discord.
 
-Esta Política de Privacidade explica quais informações podem ser processadas pela Negi, para quais finalidades elas são utilizadas e como são armazenadas.
+A Negi busca utilizar somente as informações necessárias para executar suas funcionalidades.
 
-2. Dados que podem ser coletados
+A maioria das informações utilizadas durante a execução das funcionalidades não é armazenada. Essas informações são apenas processadas enquanto a funcionalidade está sendo executada e, após o processamento, deixam de ser mantidas pela Negi.
 
-Dependendo das funcionalidades utilizadas, a Negi pode coletar e armazenar:
+2. Informações armazenadas
+
+Atualmente, a Negi pode armazenar de forma persistente somente:
 
 - ID do usuário do Discord;
-- ID do servidor do Discord;
-- Dados de XP e economia, como experiência, moedas, itens ou outros dados relacionados às funcionalidades do bot;
-- Configurações do servidor, quando necessárias para configurar funcionalidades da Negi;
-- Conteúdo de mensagens, somente quando necessário para determinadas funcionalidades do bot, como processamento de comandos ou sistemas que dependam do conteúdo da mensagem.
+- Avatares de usuários, quando utilizados por funcionalidades que necessitam deles.
 
-A Negi procura coletar apenas as informações necessárias para oferecer suas funcionalidades.
+Essas informações podem ser mantidas para permitir que determinadas funcionalidades da Negi funcionem corretamente.
 
-3. Como os dados são utilizados
+A Negi não armazena o conteúdo das mensagens dos usuários.
 
-Os dados podem ser utilizados exclusivamente para:
+3. Informações processadas sem armazenamento
 
-- executar e manter os comandos e funcionalidades da Negi;
-- manter sistemas de XP, economia e outras funcionalidades que dependam de dados persistentes;
-- armazenar e aplicar configurações de servidores;
+Durante a execução de determinadas funcionalidades, a Negi pode receber e processar informações fornecidas pelo Discord ou pelo usuário.
+
+Essas informações podem incluir, dependendo da funcionalidade:
+
+- conteúdo de mensagens;
+- comandos enviados pelos usuários;
+- informações de membros;
+- informações necessárias para executar uma determinada funcionalidade;
+- dados utilizados para gerar imagens, respostas, mensagens ou outros resultados.
+
+Essas informações são utilizadas somente durante o processamento necessário para executar a funcionalidade correspondente.
+
+Após o processamento, essas informações não são armazenadas pela Negi.
+
+O fato de a Negi conseguir acessar uma informação para executar uma funcionalidade não significa que essa informação seja armazenada.
+
+4. Conteúdo das mensagens
+
+A Negi utiliza o Message Content Intent disponibilizado pelo Discord.
+
+Esse acesso é necessário para funcionalidades que dependem da leitura do conteúdo de mensagens, como determinados comandos e sistemas que precisam interpretar o conteúdo enviado pelos usuários.
+
+Quando o conteúdo de uma mensagem é necessário, ele é recebido pela Negi através dos recursos disponibilizados pelo Discord e processado exclusivamente para executar a funcionalidade correspondente.
+
+O conteúdo da mensagem não é armazenado pela Negi em banco de dados, arquivos, cache ou outro sistema de armazenamento mantido pela Negi.
+
+Após o processamento necessário para a execução da funcionalidade, o conteúdo não é mantido pela Negi.
+
+A capacidade técnica da Negi de acessar o conteúdo de uma mensagem através do Discord não significa que esse conteúdo seja coletado ou armazenado pela Negi.
+
+O processamento e o armazenamento realizados pela própria plataforma Discord estão sujeitos às políticas e práticas do Discord e não são controlados pela Negi.
+
+5. Avatares
+
+Algumas funcionalidades da Negi podem utilizar o avatar de um usuário, por exemplo, para geração de imagens, perfis ou outras funcionalidades visuais.
+
+Quando necessário, o avatar pode ser obtido através dos recursos disponibilizados pelo Discord e armazenado pela Negi para permitir o funcionamento dessas funcionalidades.
+
+Os avatares armazenados pela Negi não são utilizados para fins comerciais e não são vendidos a terceiros.
+
+6. IDs de usuários
+
+A Negi pode armazenar o ID do usuário do Discord.
+
+O ID é utilizado para identificar de forma consistente um usuário entre diferentes execuções da Negi e permitir o funcionamento de funcionalidades que necessitem reconhecer o mesmo usuário.
+
+A Negi não solicita documentos pessoais, como CPF, RG ou outros documentos de identificação, para utilizar suas funcionalidades.
+
+7. Finalidade do processamento
+
+As informações acessadas ou processadas pela Negi podem ser utilizadas para:
+
+- executar comandos;
+- interpretar mensagens necessárias para determinadas funcionalidades;
+- responder aos usuários;
+- gerar imagens e outros conteúdos;
+- utilizar avatares em funcionalidades visuais;
+- identificar usuários através de seus IDs;
+- executar funcionalidades relacionadas a servidores;
 - executar sistemas de entrada e saída de membros;
 - enviar mensagens automáticas quando uma funcionalidade estiver configurada para isso;
-- realizar funcionalidades internas necessárias para o funcionamento do bot;
-- melhorar a estabilidade e o funcionamento das funcionalidades existentes.
+- manter o funcionamento, estabilidade e segurança da Negi.
 
-Os dados coletados não são vendidos ou compartilhados com terceiros para fins comerciais.
+A Negi procura limitar o uso das informações ao necessário para a execução de suas funcionalidades.
 
-4. Conteúdo de mensagens
+8. Intents utilizadas
 
-A Negi pode utilizar o conteúdo de mensagens por meio da permissão Message Content Intent do Discord.
+A Negi utiliza determinadas Intents disponibilizadas pela API do Discord.
 
-O conteúdo de mensagens pode ser processado quando necessário para funcionalidades que dependam dele, incluindo comandos e determinados sistemas do bot.
+Entre elas podem estar:
 
-O conteúdo de uma mensagem não deve ser interpretado como sendo armazenado permanentemente apenas pelo fato de a Negi conseguir acessá-lo. O armazenamento depende da funcionalidade específica e da necessidade de manter os dados para seu funcionamento.
+MESSAGE CONTENT INTENT
 
-5. Intents utilizadas
+Utilizada para acessar e processar o conteúdo das mensagens quando necessário para comandos e outras funcionalidades que dependam desse conteúdo.
 
-A Negi utiliza determinadas intents disponibilizadas pelo Discord para executar suas funcionalidades.
+O conteúdo acessado por essa Intent não é armazenado pela Negi.
 
-Entre elas:
+GUILD MEMBERS INTENT
 
-- MESSAGE CONTENT INTENT: utilizada para leitura de comandos e funcionalidades que dependam do conteúdo das mensagens;
-- GUILD MEMBERS INTENT: utilizada para funcionalidades relacionadas a entrada e saída de membros e outras funções que necessitem de informações sobre membros.
+Utilizada para funcionalidades relacionadas a membros dos servidores, incluindo funcionalidades que dependam de eventos de entrada e saída ou outras informações disponibilizadas pelo Discord.
 
-As intents são utilizadas exclusivamente para fornecer as funcionalidades correspondentes da Negi.
+As informações recebidas através dessa Intent são utilizadas somente quando necessárias para a funcionalidade correspondente.
 
-6. Armazenamento
+9. Armazenamento
 
-Os dados persistentes da Negi são armazenados em banco de dados SQLite.
+Os dados que precisam ser mantidos de forma persistente pela Negi podem ser armazenados em seus sistemas de armazenamento, incluindo banco de dados SQLite quando aplicável.
 
-Os dados são utilizados para o funcionamento das funcionalidades do bot e não são disponibilizados publicamente pela Negi.
+Atualmente, as informações persistentes mantidas pela Negi são limitadas a:
 
-Medidas razoáveis são utilizadas para evitar acesso não autorizado aos dados armazenados.
+- IDs de usuários;
+- avatares utilizados pelas funcionalidades da Negi.
 
-7. Retenção dos dados
+A Negi não utiliza seu banco de dados para armazenar o conteúdo das mensagens processadas pelo bot.
 
-Os dados podem permanecer armazenados enquanto forem necessários para o funcionamento das funcionalidades da Negi.
+Informações que são apenas necessárias durante a execução de uma funcionalidade não são mantidas como dados persistentes após o processamento.
 
-Dados que deixarem de ser necessários poderão ser removidos, conforme a necessidade do serviço e os procedimentos disponíveis.
+10. Retenção
 
-8. Exclusão de dados
+Os IDs de usuários e avatares podem permanecer armazenados enquanto forem necessários para o funcionamento das funcionalidades da Negi.
 
-Caso você queira solicitar a exclusão de dados associados ao seu usuário ou servidor, entre em contato pelos canais oficiais da Negi.
+Quando essas informações deixarem de ser necessárias ou quando houver uma solicitação válida de exclusão, elas poderão ser removidas conforme os procedimentos disponíveis.
 
-A solicitação deverá, quando necessário, identificar quais dados ou qual servidor estão relacionados ao pedido para que seja possível localizar as informações correspondentes.
+O conteúdo das mensagens processado pela Negi não possui período de retenção, pois não é armazenado pela Negi.
 
-Alguns dados poderão precisar ser mantidos quando forem necessários para o funcionamento do serviço ou para cumprimento de obrigações aplicáveis.
+11. Exclusão de dados
 
-9. Dados de terceiros
+Usuários podem solicitar a exclusão das informações persistentes associadas ao seu usuário.
 
-A Negi não vende dados pessoais e não compartilha deliberadamente os dados armazenados com terceiros para fins comerciais.
+A solicitação pode incluir:
 
-Caso uma funcionalidade futura passe a utilizar serviços externos que necessitem receber determinados dados, esta Política de Privacidade poderá ser atualizada para refletir essa mudança.
+- ID do usuário armazenado pela Negi;
+- avatar armazenado pela Negi;
+- outras informações persistentes eventualmente existentes no momento da solicitação.
 
-10. Discord
+Para solicitar a exclusão, entre em contato através dos canais oficiais da Negi.
+
+Como o conteúdo das mensagens não é armazenado pela Negi, não existe um histórico de conteúdo de mensagens mantido pela Negi para ser excluído.
+
+12. Dados de servidores
+
+A Negi pode receber informações relacionadas aos servidores do Discord para executar suas funcionalidades.
+
+Essas informações podem ser processadas durante a execução dos comandos e funcionalidades correspondentes.
+
+Quando essas informações não forem necessárias para armazenamento persistente, elas não serão mantidas pela Negi após o processamento.
+
+13. Compartilhamento de informações
+
+A Negi não vende informações pessoais.
+
+A Negi também não compartilha deliberadamente os dados armazenados com terceiros para fins comerciais.
+
+Determinadas funcionalidades podem depender de serviços externos. Caso uma funcionalidade passe a enviar informações para um serviço externo, esta política poderá ser atualizada para explicar esse processamento.
+
+14. Serviços externos
+
+A Negi pode utilizar serviços externos necessários para determinadas funcionalidades.
+
+Esses serviços podem receber informações estritamente necessárias para executar a funcionalidade correspondente.
+
+Quando uma nova integração alterar de maneira relevante quais informações são processadas ou compartilhadas, esta Política de Privacidade poderá ser atualizada.
+
+15. Segurança
+
+A Negi adota medidas razoáveis para proteger as informações armazenadas contra acesso não autorizado, alteração, divulgação ou destruição indevida.
+
+Entretanto, nenhum sistema conectado à internet pode garantir segurança absoluta.
+
+O acesso aos sistemas internos da Negi é limitado às pessoas e processos necessários para sua operação e manutenção.
+
+16. Discord
 
 A Negi funciona dentro da plataforma Discord e utiliza recursos disponibilizados pela API do Discord.
 
-O uso do Discord continua sujeito aos termos e políticas da própria plataforma. A Negi não controla as práticas de privacidade do Discord.
+O Discord pode coletar, armazenar e processar informações independentemente da Negi.
 
-11. Alterações nesta política
+Esta Política de Privacidade descreve as práticas da Negi, não as práticas do Discord.
 
-Esta Política de Privacidade poderá ser atualizada quando houver mudanças nas funcionalidades da Negi, na forma como os dados são processados ou quando for necessário esclarecer alguma informação.
+O uso do Discord continua sujeito aos próprios termos, políticas e práticas de privacidade da plataforma.
 
-A versão mais recente estará disponível no repositório oficial da Negi.
+17. Usuários menores de idade
 
-12. Contato
+A Negi não solicita documentos de identificação ou informações pessoais desnecessárias para utilização do bot.
 
-Para dúvidas, solicitações relacionadas à privacidade ou pedidos de exclusão de dados, utilize os canais oficiais de contato e suporte da Negi.
+O uso do Discord e de seus serviços está sujeito às regras e requisitos de idade estabelecidos pelo próprio Discord e pelas leis aplicáveis.
+
+18. Alterações nesta Política de Privacidade
+
+Esta Política de Privacidade poderá ser atualizada caso:
+
+- novas funcionalidades sejam adicionadas;
+- a forma de processamento das informações seja alterada;
+- novos serviços externos sejam utilizados;
+- novas informações passem a ser armazenadas;
+- seja necessário esclarecer alguma informação desta política.
+
+A versão mais recente estará disponível nos canais oficiais da Negi.
+
+19. Contato
+
+Para dúvidas, solicitações relacionadas à privacidade ou pedidos de exclusão de dados, entre em contato através dos canais oficiais da Negi.
+
+Ao entrar em contato sobre exclusão de dados, informe o ID do usuário do Discord relacionado à solicitação para facilitar a localização das informações armazenadas.
 
 ---
 
